@@ -35,7 +35,7 @@ let math = high - low;
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: undefined
+// A: 45
 
 
 // 7.
@@ -45,7 +45,7 @@ math = high - "5";
 let born = 1984;
 let today = 2017;
 let sum = today - born;
-let age = "Tim is " + sum + "years old";
+let age = "Tim is " + sum + " years old";
 
 
 // 8.
@@ -105,22 +105,22 @@ let b = (undefined == undefined);
 
 // 16.
 let c = (undefined == null);
-// A. false
+// A. true
 
 
 // 17.
 let d = (null == false);
-// A. true
+// A. false
 
 
 // 18.
 let e = (NaN == null);
-// A. true
+// A. false
 
 
 // 19.
 let f = (NaN == NaN);
-// A. true
+// A. false
 
 
 // 20.
@@ -129,7 +129,7 @@ let f = (NaN == NaN);
 // A: I've had enough to drink
 let thirsty = true;
 
-if (thirsty === "true"){
+if (thirsty !== "true"){
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -166,7 +166,7 @@ if(k){
 } else {
 	console.log("False!");
 }
-// A: Flase!
+// A: False!
 
 
 // 24.
@@ -184,7 +184,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A: False
+// A: True
 
 
 // 26.
@@ -220,7 +220,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A: False
+// A: True
 
 
 // 30.
